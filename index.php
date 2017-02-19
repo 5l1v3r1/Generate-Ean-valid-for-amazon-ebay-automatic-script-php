@@ -8,7 +8,7 @@ $password = "";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
-mysql_select_db("mgm", $conn);
+mysql_select_db("", $conn);
 
 
 
