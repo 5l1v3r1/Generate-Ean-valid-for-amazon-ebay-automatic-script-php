@@ -27,11 +27,7 @@ function ean_checkdigit($code){
 
 $ean13 = rand(1,999999999999);
 
-
-
-
-//$ean13 = '200320079443'; //It is 12 Digits code
-$ean13 .= ean_checkdigit($ean13); //Now it is '2003200794432' 13 Digits code
+$ean13 .= ean_checkdigit($ean13); 
 
 echo $ean13;
 
