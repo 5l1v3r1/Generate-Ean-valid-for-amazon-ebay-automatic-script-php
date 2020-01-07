@@ -1,26 +1,6 @@
 <html>
 <head>
-<?php
 
-$servername = "localhost";
-$username = "";
-$password = "";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password);
-mysql_select_db("", $conn);
-
-
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
-echo "Connesso al Database";
-
-
-  
-?>
 
 </head>
 </html>
